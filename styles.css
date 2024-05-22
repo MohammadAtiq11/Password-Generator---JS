@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Ubuntu-BoldItalic;
+    src: url(./Fonts/Ubuntu-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Italic;
+    src: url(./Fonts/Ubuntu-Italic.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    padding-top: 20px;
+    background-color: black;
+    font-family: Ubuntu-BoldItalic;
+    background-image: url(./Images/programming-background-collage.jpg);
+    background-size: 100%;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(88, 84, 84, 0.603);
+    box-shadow: rgba(250, 121, 216, 0.856) 0px 7px 29px 0px;
+    width: 600px;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    font-family: Ubuntu-BoldItalic;
+    font-size: large;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    outline: unset;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Ubuntu-BoldItalic;
+    transition: 0.7s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    font-family: Ubuntu-Italic;
+    transition: 0.4s;
+
+}
+
+#gen-pass {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: Ubuntu-Italic;
+}
+
+.press {
+    padding-top: 15px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    font-family: Ubuntu-Italic;
+    font-size: large;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 25px;
+}
+
+.BTA {
+    color: white;
+    font-size: large;
+}
